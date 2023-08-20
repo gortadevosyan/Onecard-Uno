@@ -31,11 +31,9 @@
 
 
 **Game setup:**
-
 <br> The game starts by shuffling the deck and deciding the order of players, the default orientation is clockwise.
 
 **Specific rules:**
-
 <br> If the player cannot make a move they must take a card from the pile, if no 2 or 3 were played previously, the player takes one card and gives the place to the next player.
 
 **License**
