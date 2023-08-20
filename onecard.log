@@ -1,0 +1,398 @@
+#the deck has 104 cards
+#deck initialized:
+#shuffled deck: 
+SPADES 9 , SPADES 2 , SPADES 5 , HEARTS 10 , CLUBS 7 , DIAMONDS 8 , DIAMONDS 7 , SPADES 8 , HEARTS 2 , DIAMONDS 9 , HEARTS 3 , CLUBS Q , HEARTS A , HEARTS 9 , HEARTS 8 , CLUBS 8 , DIAMONDS J , HEARTS 9 , CLUBS 5 , DIAMONDS 5 , DIAMONDS J , SPADES 4 , SPADES J , DIAMONDS 6 , HEARTS 7 , CLUBS J , CLUBS 4 , CLUBS 3 , SPADES 7 , SPADES 9 , SPADES 10 , CLUBS A , HEARTS Q , HEARTS 4 , CLUBS 2 , DIAMONDS 2 , HEARTS 10 , HEARTS Q , DIAMONDS Q , SPADES 5 , DIAMONDS A , DIAMONDS 10 , HEARTS 4 , DIAMONDS 5 , SPADES A , HEARTS 5 , CLUBS 3 , SPADES 2 , CLUBS 8 , CLUBS 10 , CLUBS Q , SPADES K , CLUBS 4 , HEARTS 8 , SPADES A , HEARTS 6 , HEARTS 2 , HEARTS K , SPADES K , SPADES 4 , SPADES J , HEARTS 5 , SPADES 10 , CLUBS A , HEARTS J , HEARTS A , HEARTS K , CLUBS J , DIAMONDS 8 , HEARTS J , DIAMONDS A , DIAMONDS 3 , DIAMONDS 4 , SPADES 6 , HEARTS 6 , CLUBS K , SPADES 3 , SPADES 6 , DIAMONDS 9 , DIAMONDS 4 , CLUBS 9 , DIAMONDS 10 , CLUBS 9 , CLUBS K , DIAMONDS 3 , SPADES 8 , SPADES 3 , CLUBS 2 , DIAMONDS 7 , CLUBS 6 , CLUBS 6 , DIAMONDS 2 , CLUBS 10 , HEARTS 3 , DIAMONDS K , SPADES Q , SPADES 7 , DIAMONDS Q , DIAMONDS K , CLUBS 5 , SPADES Q , CLUBS 7 , HEARTS 7 , DIAMONDS 6 
+#Order: 
+player 1: SPADES 9 
+player 2: SPADES 2 
+player 3: SPADES 5 
+player 4: HEARTS 10 
+player 2 is the first to go: 
+#game initalized
+#player 1 cards: SPADES 8 , HEARTS 2 , DIAMONDS 7 , DIAMONDS 8 , CLUBS 7 
+#player 2 cards: HEARTS 3 , HEARTS 9 , HEARTS A , DIAMONDS 9 , CLUBS Q 
+#player 3 cards: HEARTS 8 , HEARTS 9 , DIAMONDS J , CLUBS 5 , CLUBS 8 
+#player 4 cards: SPADES 4 , SPADES J , DIAMONDS 5 , DIAMONDS 6 , DIAMONDS J 
+
+#deck before the game:
+HEARTS 7 , CLUBS J , CLUBS 4 , CLUBS 3 , SPADES 7 , SPADES 9 , SPADES 10 , CLUBS A , HEARTS Q , HEARTS 4 , CLUBS 2 , DIAMONDS 2 , HEARTS 10 , HEARTS Q , DIAMONDS Q , SPADES 5 , DIAMONDS A , DIAMONDS 10 , HEARTS 4 , DIAMONDS 5 , SPADES A , HEARTS 5 , CLUBS 3 , SPADES 2 , CLUBS 8 , CLUBS 10 , CLUBS Q , SPADES K , CLUBS 4 , HEARTS 8 , SPADES A , HEARTS 6 , HEARTS 2 , HEARTS K , SPADES K , SPADES 4 , SPADES J , HEARTS 5 , SPADES 10 , CLUBS A , HEARTS J , HEARTS A , HEARTS K , CLUBS J , DIAMONDS 8 , HEARTS J , DIAMONDS A , DIAMONDS 3 , DIAMONDS 4 , SPADES 6 , HEARTS 6 , CLUBS K , SPADES 3 , SPADES 6 , DIAMONDS 9 , DIAMONDS 4 , CLUBS 9 , DIAMONDS 10 , CLUBS 9 , CLUBS K , DIAMONDS 3 , SPADES 8 , SPADES 3 , CLUBS 2 , DIAMONDS 7 , CLUBS 6 , CLUBS 6 , DIAMONDS 2 , CLUBS 10 , HEARTS 3 , DIAMONDS K , SPADES Q , SPADES 7 , DIAMONDS Q , DIAMONDS K , CLUBS 5 , SPADES Q , CLUBS 7 , HEARTS 7 , DIAMONDS 6 
+the first card is: HEARTS 7 
+last card was: HEARTS 7 
+player 2 cards: HEARTS 3 , HEARTS 9 , HEARTS A , DIAMONDS 9 , CLUBS Q 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 2 playes card in the index 1
+last card was: HEARTS 3 
+player 3 cards: HEARTS 8 , HEARTS 9 , DIAMONDS J , CLUBS 5 , CLUBS 8 
+please input the index of the card you want to play(0 to take a card from the stockpile(3 card to take)): 
+player 3 playes card in the index 1
+last card was: HEARTS 8 
+player 4 cards: SPADES 4 , SPADES J , DIAMONDS 5 , DIAMONDS 6 , DIAMONDS J 
+please input the index of the card you want to play(0 to take a card from the stockpile(3 card to take)): 
+collecting cards...
+player 4 cards are: SPADES 4 , SPADES J , DIAMONDS 5 , DIAMONDS 6 , DIAMONDS J , CLUBS 3 , CLUBS 4 , CLUBS J 
+last card was: HEARTS 8 
+player 1 cards: SPADES 8 , HEARTS 2 , DIAMONDS 7 , DIAMONDS 8 , CLUBS 7 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 1 playes card in the index 1
+last card was: SPADES 8 
+player 2 cards: HEARTS 9 , HEARTS A , DIAMONDS 9 , CLUBS Q 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+collecting cards...
+player 2 cards are: SPADES 7 , HEARTS 9 , HEARTS A , DIAMONDS 9 , CLUBS Q 
+last card was: SPADES 8 
+player 3 cards: HEARTS 9 , DIAMONDS J , CLUBS 5 , CLUBS 8 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 3 playes card in the index 4
+last card was: CLUBS 8 
+player 4 cards: SPADES 4 , SPADES J , DIAMONDS 5 , DIAMONDS 6 , DIAMONDS J , CLUBS 3 , CLUBS 4 , CLUBS J 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 4 playes card in the index 6
+last card was: CLUBS 3 
+player 1 cards: HEARTS 2 , DIAMONDS 7 , DIAMONDS 8 , CLUBS 7 
+please input the index of the card you want to play(0 to take a card from the stockpile(3 card to take)): 
+player 1 playes card in the index 4
+last card was: CLUBS 7 
+player 2 cards: SPADES 7 , HEARTS 9 , HEARTS A , DIAMONDS 9 , CLUBS Q 
+please input the index of the card you want to play(0 to take a card from the stockpile(3 card to take)): 
+player 2 playes card in the index 1
+last card was: SPADES 7 
+player 3 cards: HEARTS 9 , DIAMONDS J , CLUBS 5 
+please input the index of the card you want to play(0 to take a card from the stockpile(3 card to take)): 
+collecting cards...
+player 3 cards are: SPADES 9 , SPADES 10 , HEARTS 9 , DIAMONDS J , CLUBS 5 , CLUBS A 
+last card was: SPADES 7 
+player 4 cards: SPADES 4 , SPADES J , DIAMONDS 5 , DIAMONDS 6 , DIAMONDS J , CLUBS 4 , CLUBS J 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 4 playes card in the index 1
+last card was: SPADES 4 
+player 1 cards: HEARTS 2 , DIAMONDS 7 , DIAMONDS 8 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+collecting cards...
+player 1 cards are: HEARTS 2 , HEARTS Q , DIAMONDS 7 , DIAMONDS 8 
+last card was: SPADES 4 
+player 2 cards: HEARTS 9 , HEARTS A , DIAMONDS 9 , CLUBS Q 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+collecting cards...
+player 2 cards are: HEARTS 4 , HEARTS 9 , HEARTS A , DIAMONDS 9 , CLUBS Q 
+last card was: SPADES 4 
+player 3 cards: SPADES 9 , SPADES 10 , HEARTS 9 , DIAMONDS J , CLUBS 5 , CLUBS A 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 3 playes card in the index 1
+last card was: SPADES 9 
+player 4 cards: SPADES J , DIAMONDS 5 , DIAMONDS 6 , DIAMONDS J , CLUBS 4 , CLUBS J 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 4 playes card in the index 1
+last card was: SPADES J 
+player 2 cards: HEARTS 4 , HEARTS 9 , HEARTS A , DIAMONDS 9 , CLUBS Q 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+collecting cards...
+player 2 cards are: HEARTS 4 , HEARTS 9 , HEARTS A , DIAMONDS 9 , CLUBS 2 , CLUBS Q 
+last card was: SPADES J 
+player 3 cards: SPADES 10 , HEARTS 9 , DIAMONDS J , CLUBS 5 , CLUBS A 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 3 playes card in the index 1
+last card was: SPADES 10 
+player 4 cards: DIAMONDS 5 , DIAMONDS 6 , DIAMONDS J , CLUBS 4 , CLUBS J 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+collecting cards...
+player 4 cards are: DIAMONDS 2 , DIAMONDS 5 , DIAMONDS 6 , DIAMONDS J , CLUBS 4 , CLUBS J 
+last card was: SPADES 10 
+player 1 cards: HEARTS 2 , HEARTS Q , DIAMONDS 7 , DIAMONDS 8 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+collecting cards...
+player 1 cards are: HEARTS 2 , HEARTS 10 , HEARTS Q , DIAMONDS 7 , DIAMONDS 8 
+last card was: SPADES 10 
+player 2 cards: HEARTS 4 , HEARTS 9 , HEARTS A , DIAMONDS 9 , CLUBS 2 , CLUBS Q 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+collecting cards...
+player 2 cards are: HEARTS 4 , HEARTS 9 , HEARTS Q , HEARTS A , DIAMONDS 9 , CLUBS 2 , CLUBS Q 
+last card was: SPADES 10 
+player 3 cards: HEARTS 9 , DIAMONDS J , CLUBS 5 , CLUBS A 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+collecting cards...
+player 3 cards are: HEARTS 9 , DIAMONDS J , DIAMONDS Q , CLUBS 5 , CLUBS A 
+last card was: SPADES 10 
+player 4 cards: DIAMONDS 2 , DIAMONDS 5 , DIAMONDS 6 , DIAMONDS J , CLUBS 4 , CLUBS J 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+collecting cards...
+player 4 cards are: SPADES 5 , DIAMONDS 2 , DIAMONDS 5 , DIAMONDS 6 , DIAMONDS J , CLUBS 4 , CLUBS J 
+last card was: SPADES 10 
+player 1 cards: HEARTS 2 , HEARTS 10 , HEARTS Q , DIAMONDS 7 , DIAMONDS 8 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 1 playes card in the index 2
+last card was: HEARTS 10 
+player 2 cards: HEARTS 4 , HEARTS 9 , HEARTS Q , HEARTS A , DIAMONDS 9 , CLUBS 2 , CLUBS Q 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 2 playes card in the index 1
+last card was: HEARTS 4 
+player 3 cards: HEARTS 9 , DIAMONDS J , DIAMONDS Q , CLUBS 5 , CLUBS A 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 3 playes card in the index 1
+last card was: HEARTS 9 
+player 4 cards: SPADES 5 , DIAMONDS 2 , DIAMONDS 5 , DIAMONDS 6 , DIAMONDS J , CLUBS 4 , CLUBS J 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+collecting cards...
+player 4 cards are: SPADES 5 , DIAMONDS 2 , DIAMONDS 5 , DIAMONDS 6 , DIAMONDS J , DIAMONDS A , CLUBS 4 , CLUBS J 
+last card was: HEARTS 9 
+player 1 cards: HEARTS 2 , HEARTS Q , DIAMONDS 7 , DIAMONDS 8 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 1 playes card in the index 1
+last card was: HEARTS 2 
+player 2 cards: HEARTS 9 , HEARTS Q , HEARTS A , DIAMONDS 9 , CLUBS 2 , CLUBS Q 
+please input the index of the card you want to play(0 to take a card from the stockpile(2 card to take)): 
+player 2 playes card in the index 1
+last card was: HEARTS 9 
+player 3 cards: DIAMONDS J , DIAMONDS Q , CLUBS 5 , CLUBS A 
+please input the index of the card you want to play(0 to take a card from the stockpile(2 card to take)): 
+collecting cards...
+player 3 cards are: HEARTS 4 , DIAMONDS 10 , DIAMONDS J , DIAMONDS Q , CLUBS 5 , CLUBS A 
+last card was: HEARTS 9 
+player 4 cards: SPADES 5 , DIAMONDS 2 , DIAMONDS 5 , DIAMONDS 6 , DIAMONDS J , DIAMONDS A , CLUBS 4 , CLUBS J 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+collecting cards...
+player 4 cards are: SPADES 5 , DIAMONDS 2 , DIAMONDS 5 , DIAMONDS 5 , DIAMONDS 6 , DIAMONDS J , DIAMONDS A , CLUBS 4 , CLUBS J 
+last card was: HEARTS 9 
+player 1 cards: HEARTS Q , DIAMONDS 7 , DIAMONDS 8 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 1 playes card in the index 1
+last card was: HEARTS Q 
+player 4 cards: SPADES 5 , DIAMONDS 2 , DIAMONDS 5 , DIAMONDS 5 , DIAMONDS 6 , DIAMONDS J , DIAMONDS A , CLUBS 4 , CLUBS J 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+collecting cards...
+player 4 cards are: SPADES 5 , SPADES A , DIAMONDS 2 , DIAMONDS 5 , DIAMONDS 5 , DIAMONDS 6 , DIAMONDS J , DIAMONDS A , CLUBS 4 , CLUBS J 
+last card was: HEARTS Q 
+player 3 cards: HEARTS 4 , DIAMONDS 10 , DIAMONDS J , DIAMONDS Q , CLUBS 5 , CLUBS A 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 3 playes card in the index 1
+last card was: HEARTS 4 
+player 2 cards: HEARTS Q , HEARTS A , DIAMONDS 9 , CLUBS 2 , CLUBS Q 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 2 playes card in the index 1
+last card was: HEARTS Q 
+player 3 cards: DIAMONDS 10 , DIAMONDS J , DIAMONDS Q , CLUBS 5 , CLUBS A 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 3 playes card in the index 3
+last card was: DIAMONDS Q 
+player 2 cards: HEARTS A , DIAMONDS 9 , CLUBS 2 , CLUBS Q 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 2 playes card in the index 2
+last card was: DIAMONDS 9 
+player 1 cards: DIAMONDS 7 , DIAMONDS 8 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 1 playes card in the index 1
+last card was: DIAMONDS 7 
+player 4 cards: SPADES 5 , SPADES A , DIAMONDS 2 , DIAMONDS 5 , DIAMONDS 5 , DIAMONDS 6 , DIAMONDS J , DIAMONDS A , CLUBS 4 , CLUBS J 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 4 playes card in the index 3
+last card was: DIAMONDS 2 
+player 3 cards: DIAMONDS 10 , DIAMONDS J , CLUBS 5 , CLUBS A 
+please input the index of the card you want to play(0 to take a card from the stockpile(2 card to take)): 
+player 3 playes card in the index 1
+last card was: DIAMONDS 10 
+player 2 cards: HEARTS A , CLUBS 2 , CLUBS Q 
+please input the index of the card you want to play(0 to take a card from the stockpile(2 card to take)): 
+collecting cards...
+player 2 cards are: HEARTS 5 , HEARTS A , CLUBS 2 , CLUBS 3 , CLUBS Q 
+last card was: DIAMONDS 10 
+player 1 cards: DIAMONDS 8 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 1 playes card in the index 1
+player 1 won round 1
+player 1 penalty score is: 0
+player 2 penalty score is: -5
+player 3 penalty score is: -3
+player 4 penalty score is: -9
+SPADES 9 , SPADES 2 , SPADES 5 , HEARTS 10 , CLUBS 7 , DIAMONDS 8 , DIAMONDS 7 , SPADES 8 , HEARTS 2 , DIAMONDS 9 , HEARTS 3 , CLUBS Q , HEARTS A , HEARTS 9 , HEARTS 8 , CLUBS 8 , DIAMONDS J , HEARTS 9 , CLUBS 5 , DIAMONDS 5 , DIAMONDS J , SPADES 4 , SPADES J , DIAMONDS 6 , HEARTS 7 , CLUBS J , CLUBS 4 , CLUBS 3 , SPADES 7 , SPADES 9 , SPADES 10 , CLUBS A , HEARTS Q , HEARTS 4 , CLUBS 2 , DIAMONDS 2 , HEARTS 10 , HEARTS Q , DIAMONDS Q , SPADES 5 , DIAMONDS A , DIAMONDS 10 , HEARTS 4 , DIAMONDS 5 , SPADES A , HEARTS 5 , CLUBS 3 , SPADES 2 , CLUBS 8 , CLUBS 10 , CLUBS Q , SPADES K , CLUBS 4 , HEARTS 8 , SPADES A , HEARTS 6 , HEARTS 2 , HEARTS K , SPADES K , SPADES 4 , SPADES J , HEARTS 5 , SPADES 10 , CLUBS A , HEARTS J , HEARTS A , HEARTS K , CLUBS J , DIAMONDS 8 , HEARTS J , DIAMONDS A , DIAMONDS 3 , DIAMONDS 4 , SPADES 6 , HEARTS 6 , CLUBS K , SPADES 3 , SPADES 6 , DIAMONDS 9 , DIAMONDS 4 , CLUBS 9 , DIAMONDS 10 , CLUBS 9 , CLUBS K , DIAMONDS 3 , SPADES 8 , SPADES 3 , CLUBS 2 , DIAMONDS 7 , CLUBS 6 , CLUBS 6 , DIAMONDS 2 , CLUBS 10 , HEARTS 3 , DIAMONDS K , SPADES Q , SPADES 7 , DIAMONDS Q , DIAMONDS K , CLUBS 5 , SPADES Q , CLUBS 7 , HEARTS 7 , DIAMONDS 6 
+
+player 1 cards: SPADES 2 , SPADES 5 , SPADES 9 , HEARTS 10 , CLUBS 7 
+player 2 cards: SPADES 8 , HEARTS 2 , DIAMONDS 7 , DIAMONDS 8 , DIAMONDS 9 
+player 3 cards: HEARTS 3 , HEARTS 8 , HEARTS 9 , HEARTS A , CLUBS Q 
+player 4 cards: HEARTS 9 , DIAMONDS 5 , DIAMONDS J , CLUBS 5 , CLUBS 8 
+the first card is: DIAMONDS J 
+last card was: DIAMONDS J 
+player 2 cards: SPADES 8 , HEARTS 2 , DIAMONDS 7 , DIAMONDS 8 , DIAMONDS 9 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 2 playes card in the index 3
+last card was: DIAMONDS 7 
+player 3 cards: HEARTS 3 , HEARTS 8 , HEARTS 9 , HEARTS A , CLUBS Q 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+collecting cards...
+player 3 cards are: SPADES 4 , HEARTS 3 , HEARTS 8 , HEARTS 9 , HEARTS A , CLUBS Q 
+last card was: DIAMONDS 7 
+player 4 cards: HEARTS 9 , DIAMONDS 5 , DIAMONDS J , CLUBS 5 , CLUBS 8 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 4 playes card in the index 2
+last card was: DIAMONDS 5 
+player 1 cards: SPADES 2 , SPADES 5 , SPADES 9 , HEARTS 10 , CLUBS 7 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 1 playes card in the index 2
+last card was: SPADES 5 
+player 2 cards: SPADES 8 , HEARTS 2 , DIAMONDS 8 , DIAMONDS 9 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 2 playes card in the index 1
+last card was: SPADES 8 
+player 3 cards: SPADES 4 , HEARTS 3 , HEARTS 8 , HEARTS 9 , HEARTS A , CLUBS Q 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 3 playes card in the index 1
+last card was: SPADES 4 
+player 4 cards: HEARTS 9 , DIAMONDS J , CLUBS 5 , CLUBS 8 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+collecting cards...
+player 4 cards are: SPADES J , HEARTS 9 , DIAMONDS J , CLUBS 5 , CLUBS 8 
+last card was: SPADES 4 
+player 1 cards: SPADES 2 , SPADES 9 , HEARTS 10 , CLUBS 7 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 1 playes card in the index 1
+last card was: SPADES 2 
+player 2 cards: HEARTS 2 , DIAMONDS 8 , DIAMONDS 9 
+please input the index of the card you want to play(0 to take a card from the stockpile(2 card to take)): 
+player 2 playes card in the index 1
+last card was: HEARTS 2 
+player 3 cards: HEARTS 3 , HEARTS 8 , HEARTS 9 , HEARTS A , CLUBS Q 
+please input the index of the card you want to play(0 to take a card from the stockpile(4 card to take)): 
+player 3 playes card in the index 1
+last card was: HEARTS 3 
+player 4 cards: SPADES J , HEARTS 9 , DIAMONDS J , CLUBS 5 , CLUBS 8 
+please input the index of the card you want to play(0 to take a card from the stockpile(7 card to take)): 
+player 4 playes card in the index 2
+last card was: HEARTS 9 
+player 1 cards: SPADES 9 , HEARTS 10 , CLUBS 7 
+please input the index of the card you want to play(0 to take a card from the stockpile(7 card to take)): 
+player 1 playes card in the index 1
+last card was: SPADES 9 
+player 2 cards: DIAMONDS 8 , DIAMONDS 9 
+please input the index of the card you want to play(0 to take a card from the stockpile(7 card to take)): 
+player 2 playes card in the index 2
+last card was: DIAMONDS 9 
+player 3 cards: HEARTS 8 , HEARTS 9 , HEARTS A , CLUBS Q 
+please input the index of the card you want to play(0 to take a card from the stockpile(7 card to take)): 
+player 3 playes card in the index 2
+last card was: HEARTS 9 
+player 4 cards: SPADES J , DIAMONDS J , CLUBS 5 , CLUBS 8 
+please input the index of the card you want to play(0 to take a card from the stockpile(7 card to take)): 
+collecting cards...
+player 4 cards are: SPADES 7 , SPADES 9 , SPADES J , HEARTS 7 , DIAMONDS 6 , DIAMONDS J , CLUBS 3 , CLUBS 4 , CLUBS 5 , CLUBS 8 , CLUBS J 
+last card was: HEARTS 9 
+player 1 cards: HEARTS 10 , CLUBS 7 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 1 playes card in the index 1
+last card was: HEARTS 10 
+player 2 cards: DIAMONDS 8 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+collecting cards...
+player 2 cards are: SPADES 10 , DIAMONDS 8 
+last card was: HEARTS 10 
+player 3 cards: HEARTS 8 , HEARTS A , CLUBS Q 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 3 playes card in the index 1
+last card was: HEARTS 8 
+player 4 cards: SPADES 7 , SPADES 9 , SPADES J , HEARTS 7 , DIAMONDS 6 , DIAMONDS J , CLUBS 3 , CLUBS 4 , CLUBS 5 , CLUBS 8 , CLUBS J 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 4 playes card in the index 4
+last card was: HEARTS 7 
+player 1 cards: CLUBS 7 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 1 playes card in the index 1
+player 1 won round 2
+player 1 penalty score is: 0
+player 2 penalty score is: -7
+player 3 penalty score is: -5
+player 4 penalty score is: -19
+SPADES 9 , SPADES 2 , SPADES 5 , HEARTS 10 , CLUBS 7 , DIAMONDS 8 , DIAMONDS 7 , SPADES 8 , HEARTS 2 , DIAMONDS 9 , HEARTS 3 , CLUBS Q , HEARTS A , HEARTS 9 , HEARTS 8 , CLUBS 8 , DIAMONDS J , HEARTS 9 , CLUBS 5 , DIAMONDS 5 , DIAMONDS J , SPADES 4 , SPADES J , DIAMONDS 6 , HEARTS 7 , CLUBS J , CLUBS 4 , CLUBS 3 , SPADES 7 , SPADES 9 , SPADES 10 , CLUBS A , HEARTS Q , HEARTS 4 , CLUBS 2 , DIAMONDS 2 , HEARTS 10 , HEARTS Q , DIAMONDS Q , SPADES 5 , DIAMONDS A , DIAMONDS 10 , HEARTS 4 , DIAMONDS 5 , SPADES A , HEARTS 5 , CLUBS 3 , SPADES 2 , CLUBS 8 , CLUBS 10 , CLUBS Q , SPADES K , CLUBS 4 , HEARTS 8 , SPADES A , HEARTS 6 , HEARTS 2 , HEARTS K , SPADES K , SPADES 4 , SPADES J , HEARTS 5 , SPADES 10 , CLUBS A , HEARTS J , HEARTS A , HEARTS K , CLUBS J , DIAMONDS 8 , HEARTS J , DIAMONDS A , DIAMONDS 3 , DIAMONDS 4 , SPADES 6 , HEARTS 6 , CLUBS K , SPADES 3 , SPADES 6 , DIAMONDS 9 , DIAMONDS 4 , CLUBS 9 , DIAMONDS 10 , CLUBS 9 , CLUBS K , DIAMONDS 3 , SPADES 8 , SPADES 3 , CLUBS 2 , DIAMONDS 7 , CLUBS 6 , CLUBS 6 , DIAMONDS 2 , CLUBS 10 , HEARTS 3 , DIAMONDS K , SPADES Q , SPADES 7 , DIAMONDS Q , DIAMONDS K , CLUBS 5 , SPADES Q , CLUBS 7 , HEARTS 7 , DIAMONDS 6 
+
+player 1 cards: SPADES 2 , SPADES 5 , SPADES 9 , HEARTS 10 , CLUBS 7 
+player 2 cards: SPADES 8 , HEARTS 2 , DIAMONDS 7 , DIAMONDS 8 , DIAMONDS 9 
+player 3 cards: HEARTS 3 , HEARTS 8 , HEARTS 9 , HEARTS A , CLUBS Q 
+player 4 cards: HEARTS 9 , DIAMONDS 5 , DIAMONDS J , CLUBS 5 , CLUBS 8 
+the first card is: DIAMONDS J 
+last card was: DIAMONDS J 
+player 2 cards: SPADES 8 , HEARTS 2 , DIAMONDS 7 , DIAMONDS 8 , DIAMONDS 9 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 2 playes card in the index 3
+last card was: DIAMONDS 7 
+player 3 cards: HEARTS 3 , HEARTS 8 , HEARTS 9 , HEARTS A , CLUBS Q 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+collecting cards...
+player 3 cards are: SPADES 4 , HEARTS 3 , HEARTS 8 , HEARTS 9 , HEARTS A , CLUBS Q 
+last card was: DIAMONDS 7 
+player 4 cards: HEARTS 9 , DIAMONDS 5 , DIAMONDS J , CLUBS 5 , CLUBS 8 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 4 playes card in the index 2
+last card was: DIAMONDS 5 
+player 1 cards: SPADES 2 , SPADES 5 , SPADES 9 , HEARTS 10 , CLUBS 7 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 1 playes card in the index 2
+last card was: SPADES 5 
+player 2 cards: SPADES 8 , HEARTS 2 , DIAMONDS 8 , DIAMONDS 9 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 2 playes card in the index 1
+last card was: SPADES 8 
+player 3 cards: SPADES 4 , HEARTS 3 , HEARTS 8 , HEARTS 9 , HEARTS A , CLUBS Q 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 3 playes card in the index 1
+last card was: SPADES 4 
+player 4 cards: HEARTS 9 , DIAMONDS J , CLUBS 5 , CLUBS 8 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+collecting cards...
+player 4 cards are: SPADES J , HEARTS 9 , DIAMONDS J , CLUBS 5 , CLUBS 8 
+last card was: SPADES 4 
+player 1 cards: SPADES 2 , SPADES 9 , HEARTS 10 , CLUBS 7 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 1 playes card in the index 1
+last card was: SPADES 2 
+player 2 cards: HEARTS 2 , DIAMONDS 8 , DIAMONDS 9 
+please input the index of the card you want to play(0 to take a card from the stockpile(2 card to take)): 
+player 2 playes card in the index 1
+last card was: HEARTS 2 
+player 3 cards: HEARTS 3 , HEARTS 8 , HEARTS 9 , HEARTS A , CLUBS Q 
+please input the index of the card you want to play(0 to take a card from the stockpile(4 card to take)): 
+player 3 playes card in the index 1
+last card was: HEARTS 3 
+player 4 cards: SPADES J , HEARTS 9 , DIAMONDS J , CLUBS 5 , CLUBS 8 
+please input the index of the card you want to play(0 to take a card from the stockpile(7 card to take)): 
+player 4 playes card in the index 2
+last card was: HEARTS 9 
+player 1 cards: SPADES 9 , HEARTS 10 , CLUBS 7 
+please input the index of the card you want to play(0 to take a card from the stockpile(7 card to take)): 
+player 1 playes card in the index 1
+last card was: SPADES 9 
+player 2 cards: DIAMONDS 8 , DIAMONDS 9 
+please input the index of the card you want to play(0 to take a card from the stockpile(7 card to take)): 
+player 2 playes card in the index 2
+last card was: DIAMONDS 9 
+player 3 cards: HEARTS 8 , HEARTS 9 , HEARTS A , CLUBS Q 
+please input the index of the card you want to play(0 to take a card from the stockpile(7 card to take)): 
+player 3 playes card in the index 2
+last card was: HEARTS 9 
+player 4 cards: SPADES J , DIAMONDS J , CLUBS 5 , CLUBS 8 
+please input the index of the card you want to play(0 to take a card from the stockpile(7 card to take)): 
+collecting cards...
+player 4 cards are: SPADES 7 , SPADES 9 , SPADES J , HEARTS 7 , DIAMONDS 6 , DIAMONDS J , CLUBS 3 , CLUBS 4 , CLUBS 5 , CLUBS 8 , CLUBS J 
+last card was: HEARTS 9 
+player 1 cards: HEARTS 10 , CLUBS 7 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 1 playes card in the index 1
+last card was: HEARTS 10 
+player 2 cards: DIAMONDS 8 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+collecting cards...
+player 2 cards are: SPADES 10 , DIAMONDS 8 
+last card was: HEARTS 10 
+player 3 cards: HEARTS 8 , HEARTS A , CLUBS Q 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 3 playes card in the index 1
+last card was: HEARTS 8 
+player 4 cards: SPADES 7 , SPADES 9 , SPADES J , HEARTS 7 , DIAMONDS 6 , DIAMONDS J , CLUBS 3 , CLUBS 4 , CLUBS 5 , CLUBS 8 , CLUBS J 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 4 playes card in the index 4
+last card was: HEARTS 7 
+player 1 cards: CLUBS 7 
+please input the index of the card you want to play(0 to take a card from the stockpile(0 card to take)): 
+player 1 playes card in the index 1
+player 1 won round 3
+player 1 penalty score is: 0
+player 2 penalty score is: -9
+player 3 penalty score is: -7
+player 4 penalty score is: -29
+player 1 won the game with penalty score 0
+closing the program...

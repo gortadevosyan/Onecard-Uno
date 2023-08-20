@@ -1,0 +1,1 @@
+Added: CLI argument support, game logic, auto mode, screen clearing in the virtual mode.
